@@ -7,7 +7,10 @@ let fileName = process.argv[3]
 request(url, (error, response, body) => {
   if (error) return console.error(error);
   if (response && response.statusCode == 200) {
-    fs.writeFile(fileName, body, (error)=>{
+    fs.writeFile(fileName + '.html', body, (error) => {
+      if (error) return console.error(error);
+    })
+    fs.writeFile(fileName + '.json', '{"name": "example"}', (error) => {
       if (error) return console.error(error);
     })
   }
