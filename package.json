@@ -1,25 +1,26 @@
 {
-  "name": "scrape-api",
-  "version": "1.0.0",
-  "description": "An easy way to generate APIs from existing web pages.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vanrick/scrapeApi.git"
-  },
-  "keywords": [
-    "api",
-    "scraper",
-    "web",
-    "generator"
-  ],
-  "author": "Ian McGonigle, Rick Van",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/vanrick/scrapeApi/issues"
-  },
-  "homepage": "https://github.com/vanrick/scrapeApi#readme"
+    "name": "scrape-api",
+    "version": "1.0.0",
+    "description": "An easy way to generate APIs from existing web pages.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vanrick/scrapeApi.git"
+    },
+    "keywords": [
+        "api",
+        "scraper",
+        "web",
+        "generator"
+    ],
+    "author": "Ian McGonigle, Rick Van",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/vanrick/scrapeApi/issues"
+    },
+    "homepage": "https://github.com/vanrick/scrapeApi#readme"
 }
